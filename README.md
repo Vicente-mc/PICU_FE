@@ -1,7 +1,7 @@
 # PICU-FE: A longitudinal dataset of hourly vital sign time-series from a Spanish Paediatric Intensive Care Unit
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19420944.svg)](https://doi.org/10.5281/zenodo.19420944)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This repository contains the code and public documentation for the **PICU-FE** dataset, as described in the manuscript submitted to *Scientific Data*. 
 
