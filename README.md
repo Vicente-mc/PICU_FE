@@ -14,7 +14,7 @@ PICU-FE is a high-resolution, analysis-ready pediatric intensive care dataset sp
     *   `requirements.txt`: Python environment dependencies.
 *   `data/`: Data dictionaries and sample structure. *(Note: The full dataset is securely hosted on Zenodo).*
 *   `docs/`: Data Use Agreement (DUA) templates and compliance checklists.
-*   `figures/`: High-resolution figures generated during the EDA.
+*   `figures/`: generated during the EDA.
 
 ## 📊 Data Access Policy
 
