@@ -1,0 +1,14 @@
+Column Name,Data Type,Unit,Clinical Description
+ID,Integer,-,Unique de-identified admission episode identifier
+HOUR,Integer,h,Relative time index since admission (t=0 denotes first hour)
+AGE,Float,years,Patient age at admission (expressed in decimal years)
+GENDER,Categorical,-,"Biological sex (Male, Female)"
+HR,Float,bpm,Heart Rate (beats per minute)
+RR,Float,brpm,Respiratory Rate (breaths per minute)
+SPO2,Float,%,Peripheral Oxygen Saturation via pulse oximetry
+TEMP,Float,°C,Body temperature (core or peripheral)
+SBP,Float,mm Hg,Systolic Blood Pressure
+DBP,Float,mm Hg,Diastolic Blood Pressure
+MAP,Float,mm Hg,Mean Arterial Pressure
+IS_INVASIVE,Boolean,-,"Pressure monitoring source (1: Invasive; 0: Non-invasive)"
+OUTCOME,Categorical,-,"Discharge status from the PICU (Survivor, Deceased)"
