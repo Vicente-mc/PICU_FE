@@ -14,7 +14,6 @@ PICU-FE is a high-resolution, analysis-ready pediatric intensive care dataset sp
     *   `requirements.txt`: Python environment dependencies.
 *   `data/`: Data dictionaries and sample structure. *(Note: The full dataset is securely hosted on Zenodo).*
 *   `docs/`: Data Use Agreement (DUA) templates and compliance checklists.
-*   `figures/`: generated during the EDA.
 
 ## 📊 Data Access Policy
 
@@ -31,8 +30,19 @@ To reproduce the mortality prediction benchmark and EDA:
 
 1. Clone this repository.
 2. Install dependencies: `pip install -r code/requirements.txt`
-3. Once data access is granted, place `PICU_Fe_dataset.csv` inside the `data/` folder.
+3. Once data access is granted, place `df_PICU-FE.csv` inside the `data/` folder.
 4. Run the Jupyter Notebook: `jupyter notebook code/EDA.ipynb`
+
+## 📄 Citation
+
+If you use this dataset or code in your research, please cite:
+
+> Mir, V. PICU-FE: A longitudinal analysis-ready dataset of harmonized hourly vital signs time-series from a Spanish paediatric intensive care unit. Zenodo https://doi.org/10.5281/zenodo.20475499 (2026).
+
+## ✉️ Contact
+
+For questions regarding the dataset or code, please contact:
+*   Email: vmircer@doctor.upv.es
 
 ## 📄 License
 The source code in this repository is licensed under the Apache 2.0 License. The dataset (hosted on Zenodo) is licensed under CC BY-NC-ND 4.0, subject to the DUA.
